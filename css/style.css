@@ -2,14 +2,47 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #010101;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: left;
+}
+
 header {
-    height: 200px;
     background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
+}
+
+main {
+    padding-left: 10px;
 }
 
 #logo {
     width: 400px;
     padding-top: 100px;
     padding-left: 10px;
+}
+
+.nome-autore {
+    color: #25abe5;
+    font-weight: bold;
+}
+
+.text-grey {
+    color: #828282;
+}
+
+.didascalia {
+    font-size: 13px;
+}
+
+.img-margin-top {
+    margin-top: 20px;
 }
