@@ -24,6 +24,10 @@ main {
     padding-left: 10px;
 }
 
+mark {
+    background-color: yellow;
+}
+
 #logo {
     width: 400px;
     padding-top: 100px;
@@ -43,6 +47,24 @@ main {
     font-size: 13px;
 }
 
-.img-margin-top {
+.margin-top {
     margin-top: 20px;
+}
+
+.intestazione-tabella {
+    color: white;
+    background-color: #20a9e5;
+    text-align: left;
+}
+
+.table-size {
+    width: 100%;
+}
+
+.row-size {
+    width: 33%;
+}
+
+.table-bgcolor {
+    background-color: #b1e5f2;
 }
