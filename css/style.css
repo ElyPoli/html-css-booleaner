@@ -6,6 +6,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: #010101;
+    padding-bottom: 50px;
 }
 
 h1 {
@@ -24,6 +25,10 @@ main {
     padding-left: 10px;
 }
 
+footer {
+    padding-left: 10px;
+}
+
 mark {
     background-color: yellow;
 }
@@ -34,8 +39,19 @@ mark {
     padding-left: 10px;
 }
 
+#img-cta-1 {
+    background-image: url('../img/monitor.jpg');
+}
+
+#img-cta-2 {
+    background-image: url('../img/graph.jpg');
+}
+
 .nome-autore {
     color: #25abe5;
+}
+
+.text-bold {
     font-weight: bold;
 }
 
@@ -67,4 +83,17 @@ mark {
 
 .table-bgcolor {
     background-color: #b1e5f2;
+}
+
+.cta-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.text-cta {
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
 }
