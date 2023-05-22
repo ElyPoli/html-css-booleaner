@@ -69,6 +69,7 @@ mark {
 
 .table-size {
     width: 100%;
+    border-collapse: collapse;
 }
 
 .row-size {
